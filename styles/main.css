@@ -1,17 +1,88 @@
-/*body {
-    background-color: #59BAB5;
+body {
+    background-color: #0b355c;
 }
 
-/*article{
-    border: 2px solid;
-    border-color: black;
+.intro {
+/*margin-top: 10%;
+margin-bottom: 20%;*/
+border: 3px solid;
+border-color: #394655;
 }
 
 h1 {
-    color: pink;
+    color: #FFFFE0;
+    /*text-align: center;*/
+    font-size: 80pt;
+    font-family: URW Chancery L, cursive;
+    width: 883px;
+    height: 500px;
 }
 
-aside {
+h2 {
+    color: #FFFFE0;
+    font-size: 30pt;
+    margin-bottom: 1%;
+    font-family: cursive;
+}
+
+h3 {
+    color: #FFFFE0;
+    font-size: 20pt;
+    font-family: cursive; 
+}
+
+p, ul, blockquote {
+    color: #FFFFE0;
+    font-family: cursive;   
+}
+
+img {
     border: 2px solid;
-    border-color: green; 
-}*/
+    border-color: #394655;
+}
+
+.simone, .kit, .baker {
+    margin-bottom: 10%;
+}
+
+.neale {
+    margin-bottom: 7%;
+}
+
+.quotes {
+    margin-bottom: 5%;
+}
+
+
+.where {
+    font-size: 17pt;
+}
+
+#sing, #act, #write   {
+    width: 810px;
+}
+
+#loc {
+    font-size: 40pt;  
+}
+
+
+aside {
+    position: absolute;
+    left: 55%;
+    top: 87%;
+
+}
+
+.clown {
+    margin-bottom: 88%;
+}
+
+.fresh {
+    margin-bottom: 140%;
+}
+
+.betta {
+    margin-bottom: 128%;
+}
+
