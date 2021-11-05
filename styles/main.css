@@ -9,6 +9,17 @@ border: 3px solid;
 border-color: #394655;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 60%;
+    
+}
+
+
 h1 {
     color: #FFFFE0;
     /*text-align: center;*/
@@ -43,6 +54,8 @@ img {
 
 .simone, .kit, .baker {
     margin-bottom: 10%;
+    border: 2px solid;
+    border-color:springgreen;
 }
 
 .neale {
@@ -59,7 +72,7 @@ img {
 }
 
 #sing, #act, #write   {
-    width: 810px;
+   width: 820px;
 }
 
 #loc {
@@ -68,13 +81,16 @@ img {
 
 
 aside {
-    position: absolute;
-    left: 55%;
-    top: 87%;
-
+    flex: 40%;
+ 
 }
 
-.clown {
+.clown, .fresh, .betta, .sea {
+    border: 2px solid;
+    border-color: crimson;
+}
+
+/*.clown {
     margin-bottom: 88%;
 }
 
@@ -84,5 +100,5 @@ aside {
 
 .betta {
     margin-bottom: 128%;
-}
+}*/
 
